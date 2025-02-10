@@ -52,7 +52,7 @@ cut_dict_ak8 = {
     '1': '1',
     '2': '1',
     '3': '1',
-    '4': 'nJet > 2',
+    '4': 'nJet >= 4',
     #'4': 'nJet > -1',
 }
 
@@ -145,10 +145,8 @@ def _process(args):
             '$CMSSW_BASE/src/PhysicsTools/NanoNN/data/JSON/%s' % golden_json[year])
         args.json = golden_json[year]
     elif args.run_signal:
-        #args.datasets = '%s/%s_%d_signalcHH1.yaml' % (args.sample_dir, sample_str, year)    
-        # args.datasets = '%s/%s_Feb2024_%s_signalMC.yaml' % (args.sample_dir, sample_str, year)
-        args.datasets = '%s/%s_ttHH_%s_signalMC.yaml' % (args.sample_dir, sample_str, year)
-        #args.datasets = '%s/%s_%s_signalMC.yaml' % (args.sample_dir, sample_str, year)
+        args.datasets = '%s/%s_%s_signalMC.yaml' % (args.sample_dir, sample_str, year)
+
     else:
         args.datasets = '%s/%s_%s_MC.yaml' % (args.sample_dir, sample_str, year)
         #args.datasets = '%s/%s_%d_qcd.yaml' % (args.sample_dir, sample_str, year)

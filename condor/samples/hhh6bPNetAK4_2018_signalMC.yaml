@@ -5,11 +5,32 @@ list:
   - nano/v9-pnetAK4/2018/
 
 hhh:
-  - dataset: HHHTo6B_c3_0_d4_0_TuneCP5_13TeV-amcatnlo-pythia8
+  - dataset: HHHTo6B_c3_0_d4_0_TuneCP5_13TeV-amcatnlo-pythia8 # Signal SM
     xs: ggHHHto6B_13TeV
 
-  - dataset: HHHTo4B2Tau_c3_0_d4_0_TuneCP5_13TeV-amcatnlo-pythia8
+  - dataset: HHHTo4B2Tau_c3_0_d4_0_TuneCP5_13TeV-amcatnlo-pythia8 # HHH4b2tau
     xs: ggHHHto4B2Tau_13TeV
+
+  - dataset: HHHTo6B_c3_0_d4_99_TuneCP5_13TeV_amcatnlo-pythia8 # BSM samples
+    xs: HHHTo6B_c3_0_d4_99
+  - dataset: HHHTo6B_c3_0_d4_minus1_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_0_d4_minus1
+  - dataset: HHHTo6B_c3_19_d4_19_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_19_d4_19
+  - dataset: HHHTo6B_c3_1_d4_0_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_1_d4_0
+  - dataset: HHHTo6B_c3_1_d4_2_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_1_d4_2
+  - dataset: HHHTo6B_c3_2_d4_minus1_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_2_d4_minus1
+  - dataset: HHHTo6B_c3_4_d4_9_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_4_d4_9
+  - dataset: HHHTo6B_c3_minus1_d4_0_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_minus1_d4_0
+  - dataset: HHHTo6B_c3_minus1_d4_minus1_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_minus1_d4_minus1
+  - dataset: HHHTo6B_c3_minus1p5_d4_minus0p5_TuneCP5_13TeV_amcatnlo-pythia8
+    xs: HHHTo6B_c3_minus1p5_d4_minus0p5
 
 hh:
   - dataset: GluGluToHHTo4B_cHHH1_TuneCP5_PSWeights_13TeV-powheg-pythia8
@@ -20,5 +41,7 @@ hh:
     xs: ggHHto4B_13TeV_cHHH2p45
   - dataset: GluGluToHHTo4B_cHHH5_TuneCP5_PSWeights_13TeV-powheg-pythia8
     xs: ggHHto4B_13TeV_cHHH5
+    
   - dataset: GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8
     xs: ggHHto2B2Tau_13TeV
+

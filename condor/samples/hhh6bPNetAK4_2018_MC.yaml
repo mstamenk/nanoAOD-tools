@@ -123,3 +123,113 @@ dy:
 #    xs: DYJetsToLL_Zpt-650ToInf_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8
 
 
+whh:
+  - dataset: WHHTo4B_CV_0_5_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_0_5_C2V_1_0_C3_1_0
+  - dataset: WHHTo4B_CV_1_0_C2V_0_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_1_0_C2V_0_0_C3_1_0
+  - dataset: WHHTo4B_CV_1_0_C2V_1_0_C3_0_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_1_0_C2V_1_0_C3_0_0
+  - dataset: WHHTo4B_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-amcatnlo-pythia8
+    xs: WHHTo4B_CV_1_0_C2V_1_0_C3_1_0
+  - dataset: WHHTo4B_CV_1_0_C2V_1_0_C3_20_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_1_0_C2V_1_0_C3_20_0
+  - dataset: WHHTo4B_CV_1_0_C2V_1_0_C3_2_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_1_0_C2V_1_0_C3_2_0
+  - dataset: WHHTo4B_CV_1_0_C2V_2_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_1_0_C2V_2_0_C3_1_0
+  - dataset: WHHTo4B_CV_1_5_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: WHHTo4B_CV_1_5_C2V_1_0_C3_1_0
+
+zhh:
+  - dataset: ZHHTo4B_CV_0_5_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_0_5_C2V_1_0_C3_1_0
+  - dataset: ZHHTo4B_CV_1_0_C2V_0_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_1_0_C2V_0_0_C3_1_0
+  - dataset: ZHHTo4B_CV_1_0_C2V_1_0_C3_0_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_1_0_C2V_1_0_C3_0_0
+  - dataset: ZHHTo4B_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-amcatnlo-pythia8
+    xs: ZHHTo4B_CV_1_0_C2V_1_0_C3_1_0
+  - dataset: ZHHTo4B_CV_1_0_C2V_1_0_C3_20_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_1_0_C2V_1_0_C3_20_0
+  - dataset: ZHHTo4B_CV_1_0_C2V_1_0_C3_2_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_1_0_C2V_1_0_C3_2_0
+  - dataset: ZHHTo4B_CV_1_0_C2V_2_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8  
+    xs: ZHHTo4B_CV_1_0_C2V_2_0_C3_1_0
+  - dataset: ZHHTo4B_CV_1_5_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_1_5_C2V_1_0_C3_1_0
+  - dataset: ggZHHTo4B_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8
+    xs: ZHHTo4B_CV_1_0_C2V_1_0_C3_1_0
+
+tthh:
+  - dataset: TTHHTo2B2Tau_HEFT_c2-3_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_c2-3
+  - dataset: TTHHTo2B2Tau_HEFT_c2-6_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_c2-6
+  - dataset: TTHHTo2B2Tau_HEFT_c2-m1_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_c2-m1
+  - dataset: TTHHTo2B2Tau_HEFT_kl-0p5_c2-1_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_kl-0p5_c2-1
+  - dataset: TTHHTo2B2Tau_HEFT_kl-2_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_kl-2
+  - dataset: TTHHTo2B2Tau_HEFT_kl-3_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_kl-3
+  - dataset: TTHHTo2B2Tau_HEFT_kt-2_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau_HEFT_kt-2
+  - dataset: TTHHTo2B2Tau_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo2B2Tau
+    
+  - dataset: TTHHTo4b_HEFT_c2-3_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_c2-3
+  - dataset: TTHHTo4b_HEFT_c2-6_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_c2-6
+  - dataset: TTHHTo4b_HEFT_c2-m1_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_c2-m1
+  - dataset: TTHHTo4b_HEFT_kl-0p5_c2-1_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_kl-0p5_c2-1
+  - dataset: TTHHTo4b_HEFT_kl-2_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_kl-2
+  - dataset: TTHHTo4b_HEFT_kl-3_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_kl-3
+  - dataset: TTHHTo4b_HEFT_kt-2_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b_HEFT_kt-2
+  - dataset: TTHHTo4b_TuneCP5_13TeV-madgraph-pythia8
+    xs: TTHHTo4b
+  
+BSM:
+  - dataset: NMSSM_XToYHTo6B_MX-400_MY-250_TuneCP5_13TeV-madgraph-pythia8
+    xs: NMSSM_XToYHTo6B_MX-400_MY-250
+  - dataset: GluGluToBulkGravitonToHHTo4B_M-1000_narrow_TuneCP5_13TeV-madgraph-pythia8
+    xs: GluGluToBulkGravitonToHHTo4B_M-1000
+  - dataset: GluGluToBulkGravitonToHHTo4B_M-1200_narrow_TuneCP5_13TeV-madgraph-pythia8
+    xs: GluGluToBulkGravitonToHHTo4B_M-1200
+  - dataset: GluGluToBulkGravitonToHHTo4B_M-500_narrow_TuneCP5_13TeV-madgraph-pythia8
+    xs: GluGluToBulkGravitonToHHTo4B_M-500
+  - dataset: GluGluToBulkGravitonToHHTo4B_M-600_narrow_TuneCP5_13TeV-madgraph-pythia8
+    xs: GluGluToBulkGravitonToHHTo4B_M-600
+  - dataset: GluGluToBulkGravitonToHHTo4B_M-800_narrow_TuneCP5_13TeV-madgraph-pythia8
+    xs: GluGluToBulkGravitonToHHTo4B_M-800
+
+
+# Need to update cross-sections
+tth:
+  - dataset: ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8
+    xs: ttHTobb_M125
+  - dataset: ttHTobb_ttTo2L2Nu_M125_TuneCP5_13TeV-powheg-pythia8
+    xs: ttHTobb_ttTo2L2Nu_M125
+  - dataset: ttHTobb_ttToSemiLep_M125_TuneCP5_13TeV-powheg-pythia8
+    xs: ttHTobb_ttToSemiLep_M125
+  - dataset: ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8
+    xs: ttHToNonbb_M125
+  - dataset: ttHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8
+    xs: ttHToTauTau_M125
+
+VH:
+  - dataset: WminusH_HToBB_WToQQ_M-125_TuneCP5_13TeV-powheg-pythia8
+    xs: WminusH_HToBB_WToQQ_XSDB
+  - dataset: WplusH_HToBB_WToQQ_M-125_TuneCP5_13TeV-powheg-pythia8
+    xs: WplusH_HToBB_WToQQ_XSDB
+  - dataset: ZH_HToBB_ZToQQ_M-125_TuneCP5_13TeV-powheg-pythia8
+    xs: ZH_HToBB_ZToQQ_XSDB
+
+  
