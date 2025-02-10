@@ -620,10 +620,11 @@ GJets_HT_400To600_13TeV 277.6
 GJets_HT_600ToInf_13TeV 93.47
 
 #DiHiggs
-ggHHto4B_13TeV           31.05e-3*5.824e-01*5.824e-01
-ggHHto4B_13TeV_cHHH0     69.7e-3*5.824e-01*5.824e-01
-ggHHto4B_13TeV_cHHH2p45  13.15e-3*5.824e-01*5.824e-01
-ggHHto4B_13TeV_cHHH5     91.7e-3*5.824e-01*5.824e-01
+#xsce from https://gitlab.cern.ch/hh/tools/inference/-/blob/hhh_nonres_model/dhi/models/hh_model.py?ref_type=heads#L194-197
+ggHHto4B_13TeV           0.031047
+ggHHto4B_13TeV_cHHH0     0.069725
+ggHHto4B_13TeV_cHHH2p45  0.013124
+ggHHto4B_13TeV_cHHH5     0.091172
 
 ggHHto2B2Tau_13TeV           31.05e-3*5.824e-01*0.06272 * 2
 ggHHto2B2Tau_13TeV_cHHH5     91.7e-3*5.824e-01*0.06272 * 2
@@ -707,16 +708,16 @@ ZHHTo4B_CV_1_0_C2V_2_0_C3_1_0             0.00031949506544836606
 ZHHTo4B_CV_1_5_C2V_1_0_C3_1_0             0.00027132051842301954
 
 ###HHH
-HHHTo6B_c3_0_d4_99                          0.0010357238013624323*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_0_d4_minus1                      7.158998771957761e-06*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_19_d4_19                         0.026036314518323205*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_1_d4_0                           5.070957463470081e-06*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_1_d4_2                           2.7952492445696003e-06*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_2_d4_minus1                      1.0094504339046402e-05*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_4_d4_9                           4.3104126160076803e-05*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_minus1_d4_0                      1.9833429268889604e-05*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_minus1_d4_minus1                 1.9110417803509764e-05*2.55*5.824e-01*5.824e-01*5.824e-01
-HHHTo6B_c3_minus1p5_d4_minus0p5             3.40368512253952e-05*2.55*5.824e-01*5.824e-01*5.824e-01
+HHHTo6B_c3_0_d4_99                          0.0010357238013624323*2.55
+HHHTo6B_c3_0_d4_minus1                      7.158998771957761e-06*2.55
+HHHTo6B_c3_19_d4_19                         0.026036314518323205*2.55
+HHHTo6B_c3_1_d4_0                           5.070957463470081e-06*2.55
+HHHTo6B_c3_1_d4_2                           2.7952492445696003e-06*2.55
+HHHTo6B_c3_2_d4_minus1                      1.0094504339046402e-05*2.55
+HHHTo6B_c3_4_d4_9                           4.3104126160076803e-05*2.55
+HHHTo6B_c3_minus1_d4_0                      1.9833429268889604e-05*2.55
+HHHTo6B_c3_minus1_d4_minus1                 1.9110417803509764e-05*2.55
+HHHTo6B_c3_minus1p5_d4_minus0p5             3.40368512253952e-05*2.55
 
 ###TTHH
 #cross section from https://gitlab.cern.ch/azecchin/inference/-/blob/master/dhi/models/tthh_model_C2klkt.py?ref_type=heads#L53-67
@@ -747,14 +748,16 @@ GluGluToBulkGravitonToHHTo4B_M-600            1
 GluGluToBulkGravitonToHHTo4B_M-800            1
 
 ###ttH
-ttHTobb_M125                 0.5269    #total_uncertainty=0.003834
-ttHTobb_ttTo2L2Nu_M125       0.5418    #total_uncertainty=0.004864
-ttHTobb_ttToSemiLep_M125     0.5418    #total_uncertainty=0.004864
-ttHToNonbb_M125              0.5638    #total_uncertainty=0.02855
-ttHToTauTau_M125             0.5269    #total_uncertainty=0.003834 
+#cross section from https://cms.cern.ch/iCMS/jsp/db_notes/noteInfo.jsp?cmsnoteid=CMS%20AN-2022/122
+#tt BR from https://pdg.lbl.gov/2022/reviews/rpp2021-rev-top-quark.pdf
+ttHTobb_M125                 0.5071*0.5824  
+ttHTobb_ttTo2L2Nu_M125       0.5071*0.5824*0.105
+ttHTobb_ttToSemiLep_M125     0.5071*0.5824*2*0.6741*0.3259
+ttHToNonbb_M125              0.5071*0.4176
+ttHToTauTau_M125             0.5071*0.06272
 
 #VH
-#cross section from https://xsecdb-xsdb-official.app.cern.ch/xsdb/
-WminusH_HToBB_WToQQ_XSDB          0.3675    #total_uncertainty=0.0003838
-WplusH_HToBB_WToQQ_XSDB           0.589     #total_uncertainty=0.0006989
-ZH_HToBB_ZToQQ_XSDB               0.5612	   #total_uncertainty=0.001332
+#cross section from https://cms.cern.ch/iCMS/jsp/db_notes/noteInfo.jsp?cmsnoteid=CMS%20AN-2020/244
+WminusH_HToBB_WToQQ          0.2135
+WplusH_HToBB_WToQQ          0.3422
+ZH_HToBB_ZToQQ               0.3260
